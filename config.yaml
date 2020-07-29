@@ -1,0 +1,17 @@
+#公链api
+#bos公链：https://api.boscore.io
+#eos公链: https://api.eosn.io
+#yas公链：https://rpc.yas.plus
+#更多EOSIO生态公链api,可以查看https://validate.eosnation.io/获取。
+apiurl: "https://api.boscore.io"
+#eosc工具
+eosc: "d:\\eosc\\eosc.exe"
+#结果输出保存文件
+savefile: "account.txt"
+#支持0,1两种模式;0只查询第一行数据集;1将两行数据集组合查询
+#数据集为单字母采用字符串格式即可，如："abcdefghijklmnopqrstuvwxyz12345"
+#数据集为多字符采用数组格式，如: ["bos","btc","bch","love","com","yas","eos"]
+model: 1
+bank:
+    - "abcdefghijklmnopqrstuvwxyz12345"
+    - "abcdefghijklmnopqrstuvwxyz12345"
